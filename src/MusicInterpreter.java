@@ -8,10 +8,9 @@ import java.util.LinkedList;
 import static jm.constants.Durations.*;
 import static jm.constants.Pitches.*;
 import static jm.constants.ProgramChanges.PIANO;
-import static jm.constants.Volumes.FORTE;
 
 public class MusicInterpreter {
-    private int[] scaleNotes = { A4, B4, C4, D4, E4, F4, G4, A4};
+    private int[] scaleNotes = { A4, B4, C4, D4, E4, F4, G4, A5};
     private CPhrase chordPhrase;
     private Part pianoPart;
     int tempo;

@@ -10,7 +10,8 @@ public class AppMain {
     }
 
     public static void main(String[] args) {
-        CA ca = new CA(150);
+        CA ca = new CA(97);
+//        12 - 1 dźwięk, 134, 105
         MusicInterpreter music = new MusicInterpreter();
 
         for(int i=0; i< 30; i++){
